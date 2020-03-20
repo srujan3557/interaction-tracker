@@ -1,0 +1,7 @@
+{
+  "presets": ["@babel/env"],
+  "plugins": [
+    ["@babel/plugin-transform-object-assign"],
+    ["@babel/plugin-proposal-object-rest-spread", { "loose": true, "useBuiltIns": true }]
+  ]
+}
